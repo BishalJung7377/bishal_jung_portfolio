@@ -1,0 +1,113 @@
+<div
+  [@transitionReveal]="{ value: _mTriggerAnim, params: { animDelay: 500 } }"
+  class="main tb-position--relative tb-overflow--hidden"
+  ngClass.xs="xs"
+  ngClass.sm="sm"
+  #animRefView
+>
+  <div class="tb-container--stretched">
+    <div class="background-bar">
+      <!-- <div class="vertical-line-container" fxLayoutAlign="space-between stretch">
+          <div class="vertical-lines"></div>
+          <div class="vertical-lines"></div>
+          <div class="vertical-lines"></div>
+          <div class="vertical-lines"></div>
+          <div class="vertical-lines"></div>
+        </div> -->
+    </div>
+  </div>
+
+  <div class="footer tb-container tb-position--relative" fxLayout="column">
+    <!-- <div class="logo" ngClass.xs="xs">
+          <img class="tb-image" src="assets/svg/logo_big.svg">
+        </div> -->
+
+    <div class="tb-height--48">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0099ff"
+          fill-opacity="1"
+          d="M0,160L26.7,149.3C53.3,139,107,117,160,96C213.3,75,267,53,320,64C373.3,75,427,117,480,144C533.3,171,587,181,640,154.7C693.3,128,747,64,800,48C853.3,32,907,64,960,85.3C1013.3,107,1067,117,1120,144C1173.3,171,1227,213,1280,197.3C1333.3,181,1387,107,1413,69.3L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+
+    <div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="start center">
+      <p class="tb-cursor--pointer tb-typo--body2 tb-color--black-500">
+        © {{ currentYear }} Copyright | Bishal Jung | All rights reserved.|
+        Developed in
+        <span class="tb-color--black">Angular</span>
+      </p>
+      <div fxFlex></div>
+      <div
+        class="social-area"
+        fxLayoutGap="40px"
+        fxLayout="row"
+        fxLayoutAlign="center center"
+      >
+        <div
+          class="social"
+          fxLayoutGap="40px"
+          fxLayout="row"
+          fxLayoutAlign="center center"
+          fxLayoutAlign.lt-sm="end end"
+        >
+          <!-- <button mat-icon-button>
+              <mat-icon svgIcon="facebook" class="tb-icon--16 tb-color--grey-300 "></mat-icon>
+            </button> -->
+
+          <a
+            class=""
+            href="https://github.com/BishalJung7377"
+            target="_blank"
+            matTooltip="github"
+          >
+            <button mat-icon-button>
+              <mat-icon
+                svgIcon="github"
+                class="tb-icon--16 tb-color--black-500"
+              ></mat-icon>
+            </button>
+          </a>
+
+          <a
+            class=""
+            href="https://www.linkedin.com/in/bsalt7377596/"
+            target="_blank"
+            matTooltip="linkedin"
+          >
+            <button mat-icon-button>
+              <mat-icon
+                svgIcon="linkedin"
+                class="tb-icon--16 tb-color--black-500"
+              ></mat-icon>
+            </button>
+          </a>
+          <a
+            class=""
+            href="https://www.instagram.com/bishal_jung7/"
+            target="_blank"
+            matTooltip="instagram"
+          >
+            <button mat-icon-button>
+              <mat-icon
+                svgIcon="instagram"
+                class="tb-icon--16 tb-color--black-500"
+              ></mat-icon>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb-height--20"></div>
+  </div>
+</div>
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path
+    fill="#0099ff"
+    fill-opacity="1"
+    d="M0,0L48,32C96,64,192,128,288,170.7C384,213,480,235,576,218.7C672,203,768,149,864,138.7C960,128,1056,160,1152,154.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+  ></path>
+</svg> -->

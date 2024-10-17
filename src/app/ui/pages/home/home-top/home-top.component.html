@@ -1,0 +1,95 @@
+<div class="tb-position--relative main" ngClass.xs="xs" ngClass.sm="sm">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1440 320"
+    [@transitionTextEnter]="{ value: 'in', params: { animDelay: 700 } }"
+    (@transitionTextEnter.done)="_onTextAnimationEnd($event)"
+  >
+    <path
+      fill="#0099ff"
+      fill-opacity="1"
+      d="M0,64L17.1,69.3C34.3,75,69,85,103,85.3C137.1,85,171,75,206,74.7C240,75,274,85,309,96C342.9,107,377,117,411,149.3C445.7,181,480,235,514,213.3C548.6,192,583,96,617,53.3C651.4,11,686,21,720,53.3C754.3,85,789,139,823,138.7C857.1,139,891,85,926,69.3C960,53,994,75,1029,106.7C1062.9,139,1097,181,1131,186.7C1165.7,192,1200,160,1234,160C1268.6,160,1303,192,1337,192C1371.4,192,1406,160,1423,144L1440,128L1440,0L1422.9,0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z"
+    ></path>
+  </svg>
+  <div class="tb-container tb-position--relative container">
+    <div class="content-container" fxLayout="column">
+      <!-- <div ngClass.gt-sm="tb-height--36" ngClass.sm="tb-height--20" ngClass.xs="tb-height--2"></div> -->
+
+      <!-- <div
+        ngClass.gt-sm="tb-height--126"
+        ngClass.sm="tb-height--72"
+        ngClass.xs="tb-height--72"
+      ></div> -->
+      <h4
+        [@transitionTextEnter]="{ value: 'in', params: { animDelay: 200 } }"
+        ngClass.gt-sm="current-typo--h4"
+        ngClass.sm="current-typo--h5"
+        ngClass.xs="current-typo--h5"
+      >
+        Hi, I'am Bishal Jung
+      </h4>
+      <div
+        ngClass.gt-sm="tb-height--24"
+        ngClass.sm="tb-height--12"
+        ngClass.xs="tb-height--12"
+      ></div>
+      <h2
+        [@transitionTextEnter]="{ value: 'in', params: { animDelay: 300 } }"
+        ngClass.gt-sm="current-typo--h1-light"
+        ngClass.sm="current-typo--h2-light"
+        ngClass.xs="current-typo--h3"
+      >
+        Passion
+      </h2>
+
+      <h2
+        [@transitionTextEnter]="{ value: 'in', params: { animDelay: 400 } }"
+        ngClass.gt-sm="current-typo--h1-light"
+        ngClass.sm="current-typo--h2-light"
+        ngClass.xs="current-typo--h3"
+      >
+        to Sculpt Data
+      </h2>
+      <h2
+        [@transitionTextEnter]="{ value: 'in', params: { animDelay: 500 } }"
+        ngClass.gt-sm="current-typo--h1-light"
+        ngClass.sm="current-typo--h2-light"
+        ngClass.xs="current-typo--h3"
+      >
+        insights & models
+      </h2>
+      <h2
+        [@transitionTextEnter]="{ value: 'in', params: { animDelay: 600 } }"
+        class="current-typo--h3"
+        ngClass.sm="current-typo--h3-light"
+      >
+        Obsession to
+      </h2>
+      <div
+        ngClass.gt-sm="tb-height--24"
+        ngClass.sm="tb-height--16"
+        ngClass.xs="tb-height--8"
+      ></div>
+
+      <p
+        [@transitionTextEnter]="{ value: 'in', params: { animDelay: 700 } }"
+        (@transitionTextEnter.done)="_onTextAnimationEnd($event)"
+        class="detail tb-color--black-54"
+        ngClass.gt-sm="current-typo--body1"
+        ngClass.sm="current-typo--body1"
+        ngClass.xs="current-typo--body1"
+      >
+        I’m an app developer experienced in making products for android and web.
+        As a Data Science student, I am passionately immersed in the dynamic
+        world of data, where I harness the power of Machine Learning and AI
+        models to transform raw data into insightful narratives and predictive
+        tools, fueling my endless curiosity and drive for innovation..
+      </p>
+      <div
+        ngClass.gt-sm="tb-height--126"
+        ngClass.sm="tb-height--72"
+        ngClass.xs="tb-height--72"
+      ></div>
+    </div>
+  </div>
+</div>
