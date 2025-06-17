@@ -23,22 +23,22 @@ export class MyAppsComponent implements OnInit {
   
     {
       "id": "5133",
-      "name": "Abalone Age Prediction",
-      "image": "../../../../../../assets/img/avatar/abaloneage.webp",
-      "link": "https://github.com/BishalJung7377/abalone_analysis",
-      "tab": "Android",
-      "caption": "Data Analysis -",
+      "name": "Early Heart Disease Classification",
+      "image": "../../../../../../assets/img/avatar/dataset-card.jpg",
+      "link": "https://github.com/BishalJung7377/heart_disease_classification",
+      "tab": "ML",
+      "caption": "Predicting Heart Disease Risk Using Machine Learning",
       "isFull": false,
-      "primary":"#bae8e8",
+      "primary":"#E1E1E1",
       "background":"#2c698d"
     },
     {
      "id": "5131",
-     "name": "Vetmentsfashion Nepal",
-     "image": "../../../../../../assets/img/avatar/vetments_web.jpeg",
-     "link": "https://github.com/BishalJung7377/VetementsFashionNepal",
-     "tab": "React",
-     "caption": "In React -",
+     "name": "Sentiment Analysis",
+     "image": "../../../../../../assets/img/avatar/sentiment analysis.png",
+     "link": "https://github.com/BishalJung7377/sentiment_analysis_natural_disaster_tweets",
+     "tab": "Sentiment",
+     "caption": "ML and NLP for Sentiments Analysis",
      "isFull": false,
      "primary":"#61dafb",
      "background":"#E1E1E1"

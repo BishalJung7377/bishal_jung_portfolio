@@ -140,7 +140,13 @@ export class HomeExpertiseComponent implements OnInit {
       "link": "https://cloud.google.com/",
       "tab": "data science"
     },
-
+    {
+      "id": "6125",
+      "name": "AWS Cloud Practitioner",
+      "logo": "assets/img/tools/aws-cloud.png",
+      "link": "",
+      "tab": "data science"
+    },
 
     {
       "id": "6128",
