@@ -135,7 +135,6 @@ export class MyAppsComponent implements OnInit {
   }
 
   /* ***************************************************************************
-   *                                  other parts
    */
 
   public setupAnimation() {
